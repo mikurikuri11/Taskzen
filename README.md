@@ -55,3 +55,6 @@
 
 ### その他
 * Firebase Authentication
+
+### 画面遷移図
+Figma：https://www.figma.com/file/YapIXTHD4FXu8UDSSShg2Z/Todo-For-7Habits?type=design&node-id=0%3A1&mode=design&t=9wl7gwmpInpzcaOp-1
