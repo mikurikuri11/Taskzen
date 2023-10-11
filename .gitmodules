@@ -1,0 +1,6 @@
+[submodule "front"]
+	path = front
+	url = https://github.com/mikurikuri1919/taskzen_front.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/mikurikuri1919/taskzen_backend.git
