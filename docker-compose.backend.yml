@@ -25,6 +25,7 @@ services:
     # 137のエラーを解決してくれている
     # 初回起動時のみだった。
     stop_signal: SIGINT
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 8080 -b '0.0.0.0'"
     volumes:
       - ./backend:/backend
     # docker run -iを意味する
