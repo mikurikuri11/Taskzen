@@ -5,6 +5,12 @@
 自分にとって今最も重要なことだけを管理するToDoアプリです。
 このアプリは、自分にとって最も重要なことだけを効果的に管理し、目標に向けて集中力を高める手助けをします。
 
+### サービスURL: https://taskzen-front.vercel.app/
+### 紹介記事:
+### Githubリポジトリ
+- フロントエンド https://github.com/mikurikuri1919/taskzen_front
+- バックエンド https://github.com/mikurikuri1919/taskzen_backend
+
 ## 想定されるユーザー層
 日々の忙しさの中で、本当にやりたいことをできていない人
 
