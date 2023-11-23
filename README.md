@@ -23,44 +23,57 @@
 ## 実装を予定している機能
 ### MVP
 * トップページ
-* 会員登録・ログイン
-* ドキュメントページ
+* Googleログイン
+* LINEログイン（本番環境でうまく動作していない）
 * ToDo一覧
 * ToDo投稿
 * ToDo詳細
-* デフォルトToDo機能（事前に登録しておく）
-* プロフィール設定ページ
-* 管理者ページ
-* LINE通知機能（1週間に一度）
-* レコメンド機能
-
-### その後の機能
 * ToDo達成率の算出機能
-* ToDo達成率のグラフ、レポート化
-* 算出した達成率でランキングを表示
-* ToDo達成後のボーナス機能
-* 共有機能（OGP）
 * 利用規約
 * プライバシーポリシー
 
+### その後の機能
+* 管理者ページ
+* LINE通知機能
+* レコメンド機能
+* ドキュメントページ
+* ToDo達成率のグラフ、レポート化
+* ToDo達成後のボーナス機能
+* 共有機能（OGP）
+* Rspecテスト
+
 ## 主な使用技術
 ### フロントエンド
-* Next.js 13.4.19
+* Next.js 13.5.4
 * React 18.2.0
 * TypeScript 5.2.2
 * TailwindCSS 3.3.3
 
 ### バックエンド
 * Rails（APIモード） 7.0.8
-* ruby 3.1.2
+* ruby 3.1.4
 * PostgreSQL
+
+### 環境構築
+* Docker
+* dokcer-compose
 
 ### インフラ
 * Vercel
 * Heroku
 
-### その他
-* Firebase Authentication
+### 主要ライブラリ
+## Next.js
+* Auth.js
+* recoil
+* react-hook-form
+* react-icons
+
+## Rails
+* bcrypt
+* rubocop
+* rubocop-performance
+* rubocop-rails
 
 ### 画面遷移図
 Figma：https://www.figma.com/file/YapIXTHD4FXu8UDSSShg2Z/Todo-For-7Habits?type=design&node-id=0%3A1&mode=design&t=9wl7gwmpInpzcaOp-1
