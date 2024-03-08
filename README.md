@@ -5,13 +5,13 @@
 自分にとって今最も重要なことだけを管理するToDoアプリです。
 このアプリは、自分にとって最も重要なことだけを効果的に管理し、目標に向けて集中力を高める手助けをします。
 
-### サービスURL: https://taskzen-front.vercel.app/
-### 紹介記事:
+### サービスURL: https://taskzen-front.vercel.app
+<!-- ### 紹介記事: -->
 ### Githubリポジトリ
 - フロントエンド https://github.com/mikurikuri1919/taskzen_front
 - バックエンド https://github.com/mikurikuri1919/taskzen_backend
 
-## 想定されるユーザー層
+## メインのターゲットユーザー
 日々の忙しさの中で、本当にやりたいことをできていない人
 
 ## サービスコンセプト
@@ -20,27 +20,19 @@
 <br>
 ※この考え方は、スティーブン・R・コヴィーの「7つの習慣」の第3の習慣、「最優先事項を優先する」にインスパイアされています。
 
-## 実装を予定している機能
-### MVP
-* トップページ
+## 機能一覧
 * Googleログイン
-* LINEログイン（本番環境でうまく動作していない）
-* ToDo一覧
-* ToDo投稿
-* ToDo詳細
+* ToDo閲覧、投稿、編集、削除
+* カテゴリー閲覧、投稿、編集、削除
 * ToDo達成率の算出機能
-* 利用規約
-* プライバシーポリシー
+* 達成率を元にしたレポート、グラフ機能
 
-### その後の機能
-* 管理者ページ
-* LINE通知機能
-* レコメンド機能
-* ドキュメントページ
-* ToDo達成率のグラフ、レポート化
-* ToDo達成後のボーナス機能
-* 共有機能（OGP）
-* Rspecテスト
+## 今後の展望
+* 何日で何個のTodoを消化したかわかる棒グラフの追加
+* 週単位だけでなく、月単位でも達成率を確認できるようにレポート、グラフ機能拡張
+* ToDoの追加や完了を催促する機能
+* APIテストの実装
+* フロントエンドのテストの実装
 
 ## 主な使用技術
 ### フロントエンド
@@ -62,18 +54,22 @@
 * Vercel
 * Heroku
 
-### 主要ライブラリ
-## Next.js
+## 主要ライブラリ
+### Next.js
 * Auth.js
+* mantine
 * recoil
 * react-hook-form
 * react-icons
+* react-hot-toast
+* eslint
+* prettier
 
-## Rails
+### Rails
 * bcrypt
 * rubocop
 * rubocop-performance
 * rubocop-rails
 
-### 画面遷移図
-Figma：https://www.figma.com/file/YapIXTHD4FXu8UDSSShg2Z/Todo-For-7Habits?type=design&node-id=0%3A1&mode=design&t=9wl7gwmpInpzcaOp-1
+## ER図
+[![Image from Gyazo](https://i.gyazo.com/d7a6beb13f0b436c8192a62f1bf7937f.png)](https://gyazo.com/d7a6beb13f0b436c8192a62f1bf7937f)
