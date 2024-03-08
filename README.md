@@ -8,8 +8,8 @@
 ### サービスURL: https://taskzen-front.vercel.app
 <!-- ### 紹介記事: -->
 ### Githubリポジトリ
-- フロントエンド https://github.com/mikurikuri1919/taskzen_front
-- バックエンド https://github.com/mikurikuri1919/taskzen_backend
+- フロントエンド https://github.com/mikurikuri11/taskzen_front
+- バックエンド https://github.com/mikurikuri11/taskzen_backend
 
 ## メインのターゲットユーザー
 日々の忙しさの中で、本当にやりたいことをできていない人
